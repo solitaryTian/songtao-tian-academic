@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Songtao Tian | Publications</title>
+  <style>
+    :root {
+      --ink: #151515;
+      --muted: #5f6875;
+      --line: #d9dee6;
+      --bg: #f6f7f9;
+      --paper: #ffffff;
+      --accent: #184f78;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.58;
+    }
+    main {
+      width: min(960px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+    header {
+      padding-bottom: 22px;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 34px;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      color: var(--accent);
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    h2 {
+      margin: 30px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
+      font-size: 20px;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 18px 0 8px;
+    }
+    .stat {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.1;
+    }
+    .stat span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .paper {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 12px 0;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    .venue {
+      color: var(--accent);
+      font-weight: 650;
+      margin-bottom: 5px;
+    }
+    .authors,
+    .note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .note {
+      margin-top: 6px;
+    }
+    .links {
+      margin-top: 9px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .links a {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px 8px;
+      background: #fbfcfd;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 34px;
+      padding-top: 16px;
+      font-size: 13px;
+    }
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 28px, 960px);
+        padding-top: 28px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      .summary {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Songtao Tian 田松涛</h1>
+      <div class="subtitle">AIGC / Generative Modeling / Deep Learning Theory / Statistical Learning</div>
+      <div class="meta">Tsinghua University Ph.D. in Statistics · Email: tst20@mails.tsinghua.edu.cn</div>
+      <div class="summary" aria-label="publication summary">
+        <div class="stat"><strong>8</strong><span>publications</span></div>
+        <div class="stat"><strong>5</strong><span>AI / ML / CV / NLP papers</span></div>
+        <div class="stat"><strong>3</strong><span>statistics papers</span></div>
+        <div class="stat"><strong>4</strong><span>first/co-first/corresponding roles</span></div>
+      </div>
+    </header>
+
+    <h2>Representative Work</h2>
+    <section class="paper">
+      <div class="title">Curvature-Adaptive Consistency Flow Matching: Autonomous Trajectory Optimization via Reinforcement Learning</div>
+      <div class="venue">ECCV / arXiv:2606.22394 · First Author</div>
+      <div class="authors">Songtao Tian, Guhan Chen, Bohan Li, Jingyi Ma, Zixiong Yu</div>
+      <div class="note">Reformulates consistency distillation as a trajectory optimization problem and uses an RL scheduler to improve few-step generation for large flow/diffusion models such as FLUX and SDXL.</div>
+      <div class="links">
+        <a href="papers/Curvature-Adaptive%20Consistency%20Flow%20Matching-%20Autonomous%20Trajectory%20Optimization%20via%20Reinforcement%20Learning.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2606.22394">arXiv</a>
+      </div>
+    </section>
+    <section class="paper">
+      <div class="title">Divergence of Empirical Neural Tangent Kernel in Classification Problems</div>
+      <div class="venue">ICLR 2025 · Co-first Author</div>
+      <div class="authors">Zixiong Yu, Songtao Tian, Guhan Chen</div>
+      <div class="note">Shows that empirical NTK can diverge from theoretical NTK in overtrained classification, clarifying when lazy-training explanations fail.</div>
+      <div class="links">
+        <a href="papers/DIVERGENCE%20OF%20EMPIRICAL%20NEURAL%20TANGENT%20KERNEL%20IN%20CLASSIFICATION%20PROBLEMS.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2504.11130">arXiv</a>
+      </div>
+    </section>
+    <section class="paper">
+      <div class="title">On the Structural Dimension of Sliced Inverse Regression</div>
+      <div class="venue">The Annals of Statistics, 54(1):25-47 · Co-first Author</div>
+      <div class="authors">Dongming Huang, Songtao Tian, Qian Lin</div>
+      <div class="note">Studies the structural dimension barrier of sliced inverse regression and explains performance degradation in high structural dimensions.</div>
+      <div class="links">
+        <a href="papers/On%20the%20Structural%20Dimension%20of%20Sliced%20Inverse%20Regression.pdf">PDF</a>
+      </div>
+    </section>
+
+    <h2>AI / ML / CV / NLP Publications</h2>
+    <section class="paper">
+      <div class="title">Branch Scaling Manifests as Implicit Architectural Regularization for Improving Generalization in Overparameterized ResNets</div>
+      <div class="venue">ICML 2026, PMLR 306 · Corresponding Author</div>
+      <div class="authors">Zixiong Yu, Guhan Chen, Jianfa Lai, Bohan Li, Songtao Tian</div>
+      <div class="note">Analyzes branch scaling as implicit architectural regularization and gives conditions for minimax-optimal generalization in overparameterized ResNets.</div>
+      <div class="links">
+        <a href="papers/Branch%20Scaling%20Manifests%20as%20Implicit%20Architectural%20Regularization%20for%20Improving%20Generalization%20in%20Overparameterized%20ResNets.pdf">PDF</a>
+      </div>
+    </section>
+    <section class="paper">
+      <div class="title">MathAgent: Adversarial Evolution of Constraint Graphs for Mathematical Reasoning Data Synthesis</div>
+      <div class="venue">ACL Findings 2026</div>
+      <div class="authors">Zixiong Yu, Jun Rao, Guhan Chen, Songtao Tian, Bohan Li, Jiansheng Wei, Min Zhang, Xiaojun Meng</div>
+      <div class="note">Formulates mathematical reasoning data synthesis as constraint-graph optimization and semantic instantiation, improving data efficiency for reasoning benchmarks.</div>
+      <div class="links">
+        <a href="papers/MathAgent-%20Adversarial%20Evolution%20of%20Constraint%20Graphs%20for%20Mathematical%20Reasoning%20Data%20Synthesis.pdf">PDF</a>
+      </div>
+    </section>
+    <section class="paper">
+      <div class="title">SAM-Wav2lip++: Enhancing Behavioral Realism in Synthetic Agents Through Audio-Driven Speech and Action Refinement</div>
+      <div class="venue">IEEE SMC 2024</div>
+      <div class="authors">Bihui Yu, Dawei Liu, Huiyang Shi, GuiYong Chang, Jingxuan Wei, Linzhuang Sun, Songtao Tian, Liping Bu</div>
+      <div class="note">Improves behavioral realism in synthetic agents through audio-driven speech and action refinement.</div>
+      <div class="links">
+        <a href="papers/SAM-Wav2lip++:%20Enhancing%20Behavioral%20Realism%20in%20Synthetic%20Agents%20Through%20Audio-Driven%20Speech%20and%20Action%20Refinement.pdf">PDF</a>
+      </div>
+    </section>
+
+    <h2>Statistics Publications</h2>
+    <section class="paper">
+      <div class="title">On the Optimality of Functional Sliced Inverse Regression</div>
+      <div class="venue">Statistica Sinica · Co-first Author</div>
+      <div class="authors">Rui Chen, Songtao Tian, Dongming Huang, Qian Lin, Jun S. Liu</div>
+      <div class="note">Establishes optimality properties for functional sliced inverse regression in functional data analysis.</div>
+      <div class="links">
+        <a href="papers/On%20the%20Optimality%20of%20Functional%20Sliced%20Inverse%20Regression.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2307.02777">arXiv</a>
+      </div>
+    </section>
+    <section class="paper">
+      <div class="title">Equivalence of State Equations from Different Methods in High-Dimensional Regression</div>
+      <div class="venue">Communications in Statistics - Theory and Methods, 54(3):850-863 · Corresponding Author</div>
+      <div class="authors">Saidi Luo, Songtao Tian</div>
+      <div class="note">Compares state equations arising from different high-dimensional regression methods and proves their equivalence under suitable settings.</div>
+      <div class="links">
+        <a href="papers/Equivalence%20of%20state%20equations%20from%20different%20methods%20in%20High-dimensional%20Regression.pdf">PDF</a>
+      </div>
+    </section>
+
+    <footer>
+      Last updated: June 2026. PDF files are included for hiring and academic review convenience.
+    </footer>
+  </main>
+</body>
+</html>
